@@ -1,0 +1,21 @@
+[project]
+name = "learn-pdm"
+version = "0.1.0"
+description = "A project for me to learn a bit about pdm and experience it"
+authors = [
+    {name = "pypeaday", email = "pypeaday@pype.dev"},
+]
+dependencies = [
+    "requests>=2.32.3",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
